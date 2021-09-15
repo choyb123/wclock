@@ -14,13 +14,16 @@ body {
     font-family: Orbitron;
     letter-spacing: 7px;
  }
+  .display {
+    font-size: 90px;
+    }
 </style>
   
 <body>
 <table border="0" width="200" cellspacing="0" cellpadding="3"  class="time">
 <form name="where">
-  <tr>
-    <td width="100%">
+<tr>
+<td width="100%">
 <select name="city" size="1" onchange="updateclock(this);"> 
 <option value="" selected>Local time</option>
 <option value="1">London GMT</option> 
@@ -38,9 +41,9 @@ body {
 </select>
 
 </td>
-  </tr>
-  <tr>
-    <td width="100%">
+ </tr>
+ <tr>
+  <td width="100%" class="display">
 <script language="JavaScript">
 
 /*
