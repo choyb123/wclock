@@ -1,7 +1,24 @@
 <html>
+  <style>
+body {
+    background: lightseagreen;
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+ }
+</style>
+  
 <body>
 <table border="0" width="200" cellspacing="0" cellpadding="3">
-<form name="where">
+<form name="where" class="time">
   <tr>
     <td width="100%">
 <select name="city" size="1" onchange="updateclock(this);"> 
